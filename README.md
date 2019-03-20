@@ -5,3 +5,4 @@ a framework is set for future development so that there is no local file require
 using the local file you can create a csv file of leap motion data and apply it to a the leap motion skeleton provided by selecting
 the hand bones and using the motion builder script
 this will apply the leap motion data in the locla CSV to the hand bones
+DO NOT IMPORT THE CURRENT TAKE WHEN FIRST OPENING THE SKELETON
