@@ -412,6 +412,7 @@ def main():
 		data = csv.read(1024)
 	csv.close()
 	print "Sent Data and Closing"
+	os.remove(str(dir.replace("\\","/")) + "/animDataServer.csv")
 	clientsocket.shutdown(socket.SHUT_WR)
 		
 
