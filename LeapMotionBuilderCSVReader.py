@@ -179,10 +179,10 @@ startFrame = 0
 currentFrame = 0
 prevFrame = 0
 
-#read through csv
+#read through csv REPLACE WITH YOUR CSV FILE NAME
 #get wrist position and rotation for both hands
 #0='leftWrist''rightWrist',1=frame,2=x position,left 3=y position,4=z position,5=pitch,6=yaw,7=roll
-with open("C:/Users/Ruben/Onedrive/Desktop/animData3.csv") as csvfile:
+with open("THE CSV DIRECTORY AND FILE NAME HERE") as csvfile:
     reader = csv.reader(csvfile, quoting=csv.QUOTE_NONNUMERIC)
     for row in reader:
         #print row[0] , row[1] , row[2], row[3], row[4], row[5], row[6], row[7]
