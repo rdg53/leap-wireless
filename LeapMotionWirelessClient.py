@@ -10,8 +10,8 @@ import cPickle as pickle
 # create a socket object
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
 
-# get local machine name #replace the IP with your host desktop IP
-host = "10.0.0.17"                          
+# get local machine name !REPLACE WITH YOUR HOST PC!
+host = ""                          
 
 #use port 9999
 port = 9999
